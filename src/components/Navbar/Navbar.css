@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #fff;
+    box-shadow: 0px 5px 20px black;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar h1{
+    cursor: pointer;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.navbar ul li.active{
+    border-bottom: 2px solid black;
+}
+
+.navbar button{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}

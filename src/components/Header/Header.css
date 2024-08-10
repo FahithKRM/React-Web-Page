@@ -1,0 +1,62 @@
+.header{
+    display: grid;
+    place-content: center;
+}
+
+h1{
+    margin: 20px;
+}
+
+h1, .dec{
+    text-align: center;
+}
+
+.dec{
+    margin: 30px 400px;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    box-shadow: 5px 5px 1px black;
+    width: 280px;
+    height: 250px;
+    color: black;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.item img{
+    width: 250px;
+    height: 170px;
+    padding: 15px;
+}
+
+
+.show-more{
+    border: 0.1px solid;
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 5px 5px 4px black;
+    cursor: pointer;
+    /* width: 200px; */
+}
+

@@ -1,0 +1,59 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #cccccc;
+    padding: 20px 100px;
+    margin-top: 50px;
+    box-shadow: 0px -5px 10px black;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 44px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center h3{
+    margin-bottom: 10px;
+}
+
+.center ul{
+    list-style: none;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.form h3{
+    margin-bottom: 10px;
+}
+
+.form form input{
+    border: none;
+    padding: 5px;
+}
+
+.form form button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+}
+
+hr{
+    margin-top: 20px;
+    border-color: black;
+    width: 40vw;
+}
+.copy{
+    text-align: center;
+}
